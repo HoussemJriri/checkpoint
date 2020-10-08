@@ -1,0 +1,33 @@
+ALGORITHM counting
+VAR
+    i,j:INTEGER;
+    count1:INTEGER :=0;
+    count2:STRING:=0;
+    count3:CHAR:=0;
+    sentence:STRING;
+    ss:STRING:='.';
+    sss:STRING;
+BEGIN
+sentence=ss+sss;
+read (sentence)
+   for(var i=0;i<sentence.length;i++){
+        if((sentence[i]==CHAR))
+        {
+        count1=count1+1;
+        }
+        write(count1);
+
+
+ for(var j=1;j<sentence.length;j++){
+     if(sentence[j]='')
+         count2=count2+1;
+ }
+ write(count2);
+
+ FOR (var i=0;i<sentence.length;i++) {
+        IF (sentence[i]='a' || sentence[i]='e' || sentence[i]='i' || sentence[i=o' || sentence[i]='u' || sentence[i]='A' || sentence[i]='E'|| sentence[i]='O' ||sentence[i]='U') THEN
+            count3=count3+1;
+        
+    }
+    write(count3);   
+END
