@@ -1,0 +1,28 @@
+ALGORITHM Problem 1 with Hash table
+VAR
+    i,j=INTEGER;
+    tab1;tab2,tab3:HASH_TABLE<INTEGER,INTEGER>;
+    k:BOOLEAN:=false;
+    sum :INTEGER:=0;
+    a:INTEGER:=0;
+BEGIN
+    FOR i FROM 0 TO tab1.length   DO
+     FOR j FROM 0 TO tab2.length   DO
+    IF (tab1.get(tab1[i] = tab2.get(tab1[j])) THEN
+    k:=true ;
+    
+    END IF
+    
+    END_FOR
+    IF ( NOT k) THEN
+    sum:= sum + tab1.get[i] ;
+    tab3.insert(a, tab1[i]); 
+    a :=a+1 ;
+     END IF
+    END_FOR 
+ write(tab3);
+ write(sum);
+
+
+
+END

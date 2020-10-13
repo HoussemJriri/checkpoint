@@ -1,0 +1,24 @@
+ALGORITHM Problem 1 with Hash table
+VAR
+    i,j,k=INTEGER;
+    tab1;tab2,tab3:HASH_TABLE<INTEGER,INTEGER>;
+    sum :INTEGER:=0;
+    k:INTEGER:=0;
+BEGIN
+    FOR i FROM 0 TO tab1.length   DO
+     FOR j FROM 0 TO tab2.length   DO
+        IF {(tab1.get(tab1[i] = tab2.get(tab1[j])) THEN
+           sum:= sum + (tab1.get[i]*2) ;
+           tab3.insert(k,tab1[i]);
+           k := k+1 ;
+    END IF
+    }
+    END_FOR 
+    END_FOR 
+    
+ write('les elements sont ' ,tab3);
+ write('leur somme' ,sum);
+
+
+
+END
